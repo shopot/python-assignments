@@ -10,13 +10,13 @@
 ## Examples of commit names
 
 - **init**: - used to start the project / task. Example:
-  ```shell
+  ```code
   init: start youtube-task
   init: start mentor-dashboard task
   ```
 - **feat**: - this is the implemented new functionality from the technical specifications (added zoom support, added footer, added product card). Example:
 
-```shell
+```code
   feat: add basic page layout
   feat: implement search box
   feat: implement request to youtube API
@@ -29,21 +29,21 @@
 ```
 
 - **fix**: - fixed a bug in previously implemented functionality. Example:
-  ```shell
+  ```code
   fix: implement correct loading data from youtube
   fix: change layout for video items to fix bugs
   fix: relayout header for firefox
   fix: adjust social links for mobile
   ```
 - **refactor**: - did not add new functionality / behavior did not change. Files in other places put, deleted, added. Changed the code formatting (white-space, formatting, missing semi-colons, etc). Improved the algorithm, without changing the functionality. Example:
-  ```shell
+  ```code
   refactor: change structure of the project
   refactor: rename vars for better readability
   refactor: apply eslint
   refactor: apply prettier
   ```
 - **docs**: - used when working with project documentation / readme. Example:
-  ```shell
+  ```code
   docs: update readme with additional information
   docs: update description of run() method
   ```
