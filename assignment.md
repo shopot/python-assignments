@@ -8,10 +8,6 @@ Your task is to build and run multi-container application using `Docker`.
 
 Your task is to implement `PostgreSQL` database as source of data for your application and `ORM Libraries` to communicate with your database.
 
-## Implementation details
-
-# Authentication and Authorization
-
 Your task is to implement Authentication and Authorization with JWT (Access and Refresh tokens).
 
 - User can **signup** new account with personal login & password
