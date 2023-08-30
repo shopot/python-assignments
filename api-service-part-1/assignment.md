@@ -21,8 +21,6 @@ Your task is to implement Authentication and Authorization with JWT (Access and 
 
 ## Implementation details
 
-## Authentication and Authorization
-
 1. Endpoints
 
 - `Signup` (`auth/signup` route)
