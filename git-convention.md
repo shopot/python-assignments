@@ -16,7 +16,7 @@
   ```
 - **feat**: - this is the implemented new functionality from the technical specifications (added zoom support, added footer, added product card). Example:
 
-```code
+  ```code
   feat: add basic page layout
   feat: implement search box
   feat: implement request to youtube API
@@ -26,7 +26,7 @@
   feat: add social links
   feat: add physical security section
   feat: add real social icons
-```
+  ```
 
 - **fix**: - fixed a bug in previously implemented functionality. Example:
   ```code
