@@ -1,4 +1,4 @@
-# REST service: Authentication and Authorization, Docker and Database
+# REST API service: Authentication and Authorization, Docker and Database
 
 ## Description
 
