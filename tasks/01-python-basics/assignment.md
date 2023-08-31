@@ -75,4 +75,4 @@ The results in the array must be in the same order that the workers were created
 
 You should implement several functions in dedicated files
 
-- `parent.py` - implement function `spawnChildProcess` that receives array of arguments `args` and creates child process from file `process.py`, passing these `args` to it. This function should use a Queue to pass messages back and forth.
+- `main.py` - implement function `spawnChildProcess` that receives array of arguments `args` and creates child process from file `child.py`, passing these `args` to it. This function should use a Queue to pass messages back and forth.
