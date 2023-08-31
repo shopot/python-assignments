@@ -2,13 +2,12 @@
 
 ## Description
 
-Your task is to implement File Manager using Node.js APIs.
+Your task is to implement File Manager using Python APIs.
 
 The file manager should be able to do the following:
 
 - Work using CLI
 - Perform basic file operations (copy, move, delete, rename, etc.)
-- Utilize Streams API
 - Get information about the host machine operating system
 - Perform hash calculations
 - Compress and decompress files
@@ -16,11 +15,11 @@ The file manager should be able to do the following:
 ## Technical requirements
 
 - No external dependencies should be required
-- Use 18 LTS version of Node.js
-- The program is started by npm-script `start` in following way:
+- Use Python 3.12 version
+- The program is started in following way:
 
 ```bash
-npm run start -- --username=your_username
+python3 main.py --username=your_username
 ```
 
 - After starting the program displays the following text in the console (`Username` is equal to value that was passed on application start in `--username` CLI argument)
