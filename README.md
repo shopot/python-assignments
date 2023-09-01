@@ -17,6 +17,6 @@
 5. Create a Pull Request (PR) to the `main` branch but do not merge it yet.
 6. After the assessment is completed and you receive a grade, merge the PR into the `main` branch.
 
-**Steps 1-8 are repeated for each new task.**
+**Steps 1-6 are repeated for each new task.**
 
 ⚠️ This app is a work in progress ⚠️
