@@ -1,4 +1,8 @@
-# Assignment: File Manager
+# Assignment: Python File Manager
+
+Task name: `Python File Manager`
+
+Repository name: `python-file-manager`
 
 ## Description
 
@@ -14,7 +18,7 @@ The file manager should be able to do the following:
 
 ## Technical requirements
 
-- No external dependencies should be required
+- No external dependencies should be required (except for brotli library)
 - Use Python 3.12 version
 - The program is started in following way:
 
@@ -53,7 +57,7 @@ List of operations and their syntax:
   ls
   ```
   Example of how `ls` command output may look like
-  ![ls output example](./ls-example.JPG)
+  ![ls output example](./ls-example.jpg)
 - Basic operations with files
   - Read file and print it's content in console (should be done using Readable stream):
   ```bash
