@@ -1,23 +1,37 @@
 # Assignment: Python basics
 
+Task name: `Python basics`
+
+Repository name: `python-basics`
+
 ## Description
 
-Your task is to complete several simple tasks to learn Python basics
+Your task is to complete several simple tasks to learn Python basics.
 
 Fork [this repository](https://github.com/shopot/python-backend-basics)
 
-Assignment contains several nested folders inside `src`. Your task is to implement necessary functionality inside them
+Assignment contains several nested folders inside `src`. Your task is to implement necessary functionality inside them.
 
-## Technical requirements
+### Technical requirements
 
 - Any external tools and libraries are prohibited
 - Use Python 3.12 version
 - Don't change signature of pre-written functions (e.g. don't rename them, etc.)
 - Prefer Asynchronous I/O whenever possible
 
-## Subtasks
+### Subtasks list
 
-### File system (src/fs)
+1. File system (src/fs)
+2. Command line interface (src/cli)
+3. Hash (src/hash)
+4. Streams (src/streams)
+5. Zlib (src/zip)
+6. Worker Threads (src/wt)
+7. Child Processes (src/cp)
+
+## Subtasks description
+
+### 1. File system (src/fs)
 
 You should implement several functions in dedicated files
 
@@ -28,24 +42,20 @@ You should implement several functions in dedicated files
 - `list.py` - implement function that prints all array of filenames from `files` folder into console (if `files` folder doesn't exists `Error` with message `FS operation failed` must be thrown)
 - `read.py` - implement function that prints content of the `fileToRead.txt` into console (if there's no file `fileToRead.txt` `Error` with message `FS operation failed` must be thrown)
 
-### Command line interface(src/cli)
+### 2. Command line interface (src/cli)
 
 You should implement several functions in dedicated files
 
 - `env.py` - implement function that parses environment variables with prefix `RSS_` and prints them to the console in the format `RSS_name1=value1; RSS_name2=value2`
 - `args.py` - implement function that parses command line arguments (given in format `--propName value --prop2Name value2`, you don't need to validate it) and prints them to the console in the format `propName is value, prop2Name is value2`
 
-### Modules(src/modules)
-
-You should refactor file (you can add additional imports if needed)
-
-### Hash (src/hash)
+### 3. Hash (src/hash)
 
 You should implement several functions in dedicated files
 
 - `calcHash.py` - implement function that calculates SHA256 hash for file `fileToCalculateHashFor.txt` and logs it into console as `hex` using Streams API
 
-### Streams (src/streams)
+### 4. Streams (src/streams)
 
 You should implement several functions in dedicated files
 
@@ -53,14 +63,14 @@ You should implement several functions in dedicated files
 - `write.py` - implement function that writes `sys.stdin` data into file `fileToWrite.txt` content using Writable Stream
 - `transform.py` - implement function that reads data from `sys.stdin`, reverses text using streams transforms and then writes it into `sys.stdout`
 
-### Zlib (src/zip)
+### 5. Zlib (src/zip)
 
 You should implement several functions in dedicated files
 
 - `compress.py` - implement function that compresses file `fileToCompress.txt` to `archive.gz` using `zlib` and async stream
 - `decompress.py` - implement function that decompresses `archive.gz` back to the `fileToCompress.txt` with same content as before compression using `zlib` and async stream
 
-### Worker Threads (src/wt)
+### 7. Worker Threads (src/wt)
 
 You should implement several functions in dedicated files
 
@@ -71,7 +81,7 @@ You should implement several functions in dedicated files
 
 The results in the array must be in the same order that the workers were created.
 
-### Child Processes (src/cp)
+### 8. Child Processes (src/cp)
 
 You should implement several functions in dedicated files
 
