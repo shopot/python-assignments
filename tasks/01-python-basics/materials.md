@@ -1,5 +1,7 @@
 # Learning materials
 
+- [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+
 - [Getting Started With Git and GitHub in Your Python Projects](https://www.pythonguis.com/tutorials/git-github-python/)
 
 - [File and Directory Access](https://docs.python.org/3/library/filesys.html)
