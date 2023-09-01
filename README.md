@@ -4,11 +4,9 @@
 
 - ### Python basics
 
-  🚀[Assignment: Python basics](tasks/01-python-basics/assignment.md)
-
-  🚩[Scoring: Python basics](tasks/01-python-basics/score.md)
-
-  📚 [Learning materials](tasks/01-python-basics/materials.md)
+  - 🚀[Assignment: Python basics](tasks/01-python-basics/assignment.md)
+  - 🚩[Scoring: Python basics](tasks/01-python-basics/score.md)
+  - 📚 [Learning materials](tasks/01-python-basics/materials.md)
 
 ## How to complete the tasks
 
