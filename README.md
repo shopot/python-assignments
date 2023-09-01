@@ -31,6 +31,10 @@ The goal of the course is to teach you the basics of Python, related technologie
   - 🚀[Assignment: Python basics](tasks/01-python-basics/assignment.md)
   - 🚩[Scoring: Python basics](tasks/01-python-basics/score.md)
   - 📚 [Learning materials](tasks/01-python-basics/materials.md)
+- ### Python File Manager
+  - 🚀[Assignment: Python File Manager](tasks/02-file-manager/assignment.md)
+  - 🚩[Scoring: Python File Manager](tasks/02-file-manager/score.md)
+  - 📚 [Learning materials](tasks/02-file-manager/materials.md)
 
 ## Education process
 
