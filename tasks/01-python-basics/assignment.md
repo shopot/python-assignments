@@ -46,14 +46,14 @@ You should implement several functions in dedicated files
 
 You should implement several functions in dedicated files
 
-- `env.py` - implement function that parses environment variables with prefix `RSS_` and prints them to the console in the format `RSS_name1=value1; RSS_name2=value2`
+- `env.py` - implement function that parses environment variables with prefix `PY_` and prints them to the console in the format `PY_name1=value1; PY_name2=value2`
 - `args.py` - implement function that parses command line arguments (given in format `--propName value --prop2Name value2`, you don't need to validate it) and prints them to the console in the format `propName is value, prop2Name is value2`
 
 ### 3. Hash (src/hash)
 
 You should implement several functions in dedicated files
 
-- `calcHash.py` - implement function that calculates SHA256 hash for file `fileToCalculateHashFor.txt` and logs it into console as `hex` using Streams API
+- `calc_hash.py` - implement function that calculates SHA256 hash for file `fileToCalculateHashFor.txt` and logs it into console as `hex` using Streams API
 
 ### 4. Streams (src/streams)
 
@@ -85,4 +85,4 @@ The results in the array must be in the same order that the workers were created
 
 You should implement several functions in dedicated files
 
-- `main.py` - implement function `spawnChildProcess` that receives array of arguments `args` and creates child process from file `child.py`, passing these `args` to it. This function should use a Queue to pass messages back and forth.
+- `main.py` - implement function `spawn_child_process` that receives array of arguments `args` and creates child process from file `child.py`, passing these `args` to it. This function should use a Queue to pass messages back and forth.
