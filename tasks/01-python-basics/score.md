@@ -32,7 +32,7 @@
   - **+10** child process `stdin` receives input from master process `stdin`
   - **+10** child process `stdout` sends data to master process `stdout`
 
-## Penalties
+## Forfeits
 
 - **-95% of total task score** Any external tools/libraries are used
 - **-30% of total task score** Commits after deadline (except commits that affect only Readme.md, .gitignore, etc.)
