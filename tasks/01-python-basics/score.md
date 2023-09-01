@@ -35,4 +35,4 @@
 ## Forfeits
 
 - **-95% of total task score** Any external tools/libraries are used
-- **-30% of total task score** Commits after deadline (except commits that affect only Readme.md, .gitignore, etc.)
+- **-30% of total task score** Commits after deadline (except commits that affect only `README.md`, `.gitignore`, etc.)
