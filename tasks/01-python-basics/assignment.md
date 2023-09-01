@@ -8,7 +8,7 @@ Repository name: `python-basics`
 
 Your task is to complete several simple tasks to learn Python basics.
 
-Fork [this repository](https://github.com/shopot/python-backend-basics)
+Clone [this repository](https://github.com/shopot/python-basics)
 
 Assignment contains several nested folders inside `src`. Your task is to implement necessary functionality inside them.
 
@@ -85,4 +85,4 @@ The results in the array must be in the same order that the workers were created
 
 You should implement several functions in dedicated files
 
-- `main.py` - implement function `spawn_child_process` that receives array of arguments `args` and creates child process from file `child.py`, passing these `args` to it. This function should use a Queue to pass messages back and forth.
+- `cp.py` - implement function `spawn_child_process` that receives array of arguments `args` and creates child process from file `child.py`, passing these `args` to it. This function should use a Queue to pass messages back and forth.
