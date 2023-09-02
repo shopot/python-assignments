@@ -15,7 +15,7 @@ Assignment contains several nested folders inside `src`. Your task is to impleme
 ### Technical requirements
 
 - Any external tools and libraries are prohibited
-- Use Python 3.12 version
+- Use Python 3.11 version
 - Don't change signature of pre-written functions (e.g. don't rename them, etc.)
 - Prefer Asynchronous I/O whenever possible
 

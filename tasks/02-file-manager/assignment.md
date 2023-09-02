@@ -19,7 +19,7 @@ The file manager should be able to do the following:
 ## Technical requirements
 
 - No external dependencies should be required (except for brotli library)
-- Use Python 3.12 version
+- Use Python 3.11 version
 - The program is started in following way:
 
 ```bash
