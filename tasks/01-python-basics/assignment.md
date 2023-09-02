@@ -8,7 +8,22 @@ Repository name: `python-basics`
 
 Your task is to complete several simple tasks to learn Python basics.
 
-Clone [this repository](https://github.com/shopot/python-basics)
+Creating a new repository on GitHub named `python-basics`.
+
+Clone `python-basics` branch from this repository:
+
+```shell
+git clone -b python-basics https://github.com/shopot/python-assignments.git --single-branch
+mv python-assignments python-basics
+cd python-basics
+rm -rf .git
+git init
+git remote add origin https://github.com/<username>/python-basics.git
+git add .
+git commit -a -m "init: start project"
+git branch -M main
+git push -u origin main
+```
 
 Assignment contains several nested folders inside `src`. Your task is to implement necessary functionality inside them.
 
@@ -86,3 +101,7 @@ The results in the array must be in the same order that the workers were created
 You should implement several functions in dedicated files
 
 - `cp.py` - implement function `spawn_child_process` that receives array of arguments `args` and creates child process from file `child.py`, passing these `args` to it. This function should use a Queue to pass messages back and forth.
+
+```
+
+```
