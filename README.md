@@ -1,54 +1,47 @@
-# Python Assignments
+# Python basics
 
-⚠️ This app is a work in progress ⚠️
+## !!! Please don't submit Pull Requests to this repository !!!
 
-It is a FREE Backend-end Python course as challenge.
-The goal of the course is to teach you the basics of Python, related technologies and tools for successfully building a backend API.
+## How to clone this repository
 
-## Prerequisites
+Clone this repo:
 
-- Have basic knowledge of Python language
-- Have basic knowledge of Git, Github
-- Have basic knowledge of Computer Science
+```shell
+git clone https://github.com/shopot/python-basics.git
+```
 
-## Course topics
+Change directory:
 
-- Python basics
-- WebSocket
-- GraphQL basics
-- REST API
-- Databases
-- SQL basics
-- Testing of Python-application
-- Containerization, Docker
-- Authorization/authentication, JWT
-- Logging and error handling
-- Backend frameworks
+```shell
+cd python-basics
+```
 
-## Tasks to complete
+Remove the .git folder:
 
-- ### Python basics
-  - 🚀[Assignment: Python basics](tasks/01-python-basics/assignment.md)
-  - 🚩[Scoring: Python basics](tasks/01-python-basics/score.md)
-  - 📚 [Learning materials](tasks/01-python-basics/materials.md)
-- ### Python File Manager
-  - 🚀[Assignment: Python File Manager](tasks/02-file-manager/assignment.md)
-  - 🚩[Scoring: Python File Manager](tasks/02-file-manager/score.md)
-  - 📚 [Learning materials](tasks/02-file-manager/materials.md)
+```shell
+rm -rf .git
+```
 
-## Education process
+Create an empty git repository:
 
-[Git convention](git-convention.md)
+```shell
+git init
+```
 
-[Pull Request Requirements](pr-requirements.md)
+Run the git remote add origin command:
 
-### How to complete the tasks
+```shell
+git remote add origin https://github.com/<username>/python-basics.git
+```
 
-1. Create a repository (unless explicitly stated that it should be based on a previously created repository).
-2. Create a branch (E.g. `develop`) for the task solution from the `main` branch (or from the development branch with the solution to the previous task if it hasn't been assessed yet), giving it a relevant name.
-3. Work on the task in this branch, do not push the final solution to the remote repository (development is done locally).
-4. Push the solution to the branch.
-5. Create a Pull Request (PR) to the `main` branch but do not merge it yet.
-6. After the assessment is completed and you receive a grade, merge the PR into the `main` branch.
+Rename a branch:
 
-**Steps 1-6 are repeated for each new task.**
+```shell
+git branch -M main
+```
+
+Pushing commits to a remote repository:
+
+```shell
+git push -u origin main
+```
