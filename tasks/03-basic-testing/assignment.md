@@ -1,10 +1,12 @@
-# Basic testing
+# Python Basic testing (is not ready for use)
 
-⚠️ DO NOT SUBMIT PULL REQUESTS TO THIS REPO ⚠️
+⚠️ This task is a work in progress ⚠️
 
----
+Task name: `Python Basic testing`
 
-### Prerequisites
+Repository name: `python-basic-testing`
+
+## Description
 
 Creating a new repository on GitHub named `python-basic-testing`.
 
